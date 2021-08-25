@@ -1,0 +1,17 @@
+int firstDuplicate(int[] a) {
+    
+    
+    HashSet <Integer> newset = new HashSet<>();
+    
+    for (int i = 0; i < a.length; i++) {
+        if (newset.contains(a[i])) {
+            return a[i];
+        }
+        
+        else {
+            newset.add(a[i]);
+        }
+    }
+    
+    return -1;
+}
