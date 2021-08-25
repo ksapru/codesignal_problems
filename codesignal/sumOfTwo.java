@@ -8,6 +8,7 @@ boolean sumOfTwo(int[] a, int[] b, int v) {
             }
         }
     }
+    //Two arrays check if the number v is equal to the sum of the two arrays 
     
     return false;
 }
